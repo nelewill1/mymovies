@@ -1,0 +1,179 @@
+.container-fluid {
+    padding: 0px; 
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 15px;
+    font-style: normal;
+  }
+
+/* imagehaders films */
+  .imageheader1{
+    background-image: url('../images/redemptionweb.jpg');
+    background-size:cover;
+    
+}
+
+.imageheader2{
+    background-image: url('../images/schindlerweb.jpg');
+    background-size:cover;
+}
+
+.imageheader3{
+    background-image: url('../images/atonementweb.jpg');
+    background-size:cover;
+}
+
+.imageheader4{
+    background-image: url('../images/intouchablesweb.jpg');
+    background-size:cover;
+}
+
+.imageheader5{
+    background-image: url('../images/greenmileweb.jpg');
+    background-size:cover;
+}
+
+/* Buttons */
+button {
+    margin: 20px; 
+   
+}
+
+.btn {
+    color: orange; 
+    border-color: white;
+    border: 3px solid white;
+    padding: 0 32px;
+  
+}
+
+.btn:hover {
+    background-color: orange;
+    border: 3px solid orange;
+}
+
+
+/* Header */
+  .hero-image {
+    background-image: url("../images/header.jpg"); 
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    right: 40px;
+    bottom: 0;
+    left: 50%;
+    bottom: 50px;
+    position: absolute;
+    height: -100px;
+    text-transform: (-50%, -50%);
+    color: black;
+}
+.logoimg {
+        z-index: 4;
+        left: 50px;
+        top: 40px;  
+        position: absolute;
+       
+        }
+
+
+
+/* Movies, tekstlayout */
+.row {
+    display:flex; 
+    padding-top: 30px;
+    min-height: 30%;
+}
+
+.hoofdrol {
+    padding-top: 0px;
+}
+
+.tekstkader {
+    background-color: black;
+    color: white; 
+    padding-left: 30px;
+}
+strong {
+    color: orange;
+}
+  h1{
+    text-align: right; 
+    font-family: 'Lobster', cursive; 
+}
+  
+h2, h3, p {
+    padding: 10px;
+    margin: 0;
+    padding-right: 50px;
+
+}
+
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: inherit;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Open Sans' sans-serif; 
+    font-size: 22px;
+    font-style: normal;
+}
+
+
+ li {
+    padding-left: 1.2em; 
+    list-style-position: inside;
+}
+
+/* jaartal */
+.text-block {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.801);
+    bottom: 0px;
+    width: 100%;
+    left: 0;
+    font-family: 'Anton', sans-serif;
+    margin-top: 50px;
+    
+}
+.text-block h4 {
+    text-align: center;
+    font-size: 100px;
+    padding: 0;
+   
+}
+
+
+/* footer */ 
+footer {
+    margin-top: 40px;
+    padding: 15px; 
+    background-color: black; 
+}
+footer img {
+    height: 50px; 
+    padding-left: 20px; 
+}
+
+footer p {
+    color: white; 
+}
+
+.tekstfooter {
+    text-align: end;
+}
+.middenfooter {
+    text-align: center;
+}
